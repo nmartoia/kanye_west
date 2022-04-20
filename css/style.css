@@ -1,0 +1,35 @@
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+body{
+    background: #B3D4FC;
+    height: 100%;
+    margin: 0;
+}
+header, main{
+    text-align: center;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2rem;
+}
+h2,h3{
+    text-transform: uppercase;
+}
+main{
+    background: white;
+    min-height: 79%;
+}
+.box{
+    border: 1px solid black;
+    width: 50rem;margin: 0.1rem auto;
+}
+p{
+    font-size: 1.6rem;
+}
+small{
+    font-size: 1rem;
+}
