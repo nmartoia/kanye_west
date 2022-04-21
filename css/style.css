@@ -25,15 +25,28 @@ h2,h3{
 main{
     background: white;
     min-height: 82.5%;
-    margin-top: 1rem;
+    padding: 1rem 0 1rem;
 }
 .box{
     border: 1px solid black;
+    box-sizing: border-box;
+    padding: 1rem;
     width: 50rem;margin: 0.1rem auto;
 }
 p{
     font-size: 1.6rem;
+    margin: 2.1rem auto 0;
 }
 small{
     font-size: 1rem;
+}
+.up{
+    position: relative;
+    top: -3.5rem;
+    left: 28rem;
+}
+.down{
+    position: relative;
+    top: -1.5rem;
+    left: 23.5rem;
 }

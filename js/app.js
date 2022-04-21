@@ -1,12 +1,14 @@
 let btn = document.querySelector("button")
 let div=document.querySelector("#div");
-function addelement(){
+btn.addEventListener('click',function(){
     let p =document.createElement("p");
     let box = document.createElement('div')
     let up = document.createElement('button')
     let down = document.createElement('button')
     up.textContent='UP'
     down.textContent='DOWN'
+    up.className='up'
+    down.className='down'
     box.className='box'
     div.appendChild(box)
     box.appendChild(p)
@@ -17,6 +19,5 @@ function addelement(){
 }).then((data)=>{
     p.textContent=data.quote;
 }).catch()
-}
-btn.addEventListener('click',addelement)
+})
 //p.previousElementSibling
