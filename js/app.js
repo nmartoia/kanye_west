@@ -1,6 +1,9 @@
 let btn = document.querySelector("button")
 let div=document.querySelector("#div");
 btn.addEventListener('click',function(){
+    fetch('https://api.kanye.rest/').then((response)=>{
+    return response.json()
+}).then((data)=>{
     let p =document.createElement("p");
     let box = document.createElement('div')
     let up = document.createElement('button')
@@ -14,10 +17,12 @@ btn.addEventListener('click',function(){
     box.appendChild(p)
     box.appendChild(up)
     box.appendChild(down)
-    fetch('https://api.kanye.rest/').then((response)=>{
-    return response.json()
-}).then((data)=>{
     p.textContent=data.quote;
+    let btnups=document.querySelectorAll('.up')
+    for(let btnup of btnups){
+        btnup.addEventListener("click",function(){
+            
+        })
+    }
 }).catch()
 })
-//p.previousElementSibling
