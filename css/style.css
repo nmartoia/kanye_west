@@ -1,6 +1,6 @@
 html{
     font-size: 62.5%;
-    height: 100%;
+    height: 95.6%;
 }
 body{
     background: #B3D4FC;
@@ -13,6 +13,9 @@ header, main{
 h2{
     font-size: 3.2rem;
 }
+header button{
+    margin: 1rem;
+}
 h3{
     font-size: 2rem;
 }
@@ -21,7 +24,8 @@ h2,h3{
 }
 main{
     background: white;
-    min-height: 79%;
+    min-height: 82.5%;
+    margin-top: 1rem;
 }
 .box{
     border: 1px solid black;
