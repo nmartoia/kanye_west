@@ -1,0 +1,22 @@
+{
+  "name": "kanye_west",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmartoia/kanye_west.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmartoia/kanye_west/issues"
+  },
+  "homepage": "https://github.com/nmartoia/kanye_west#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
